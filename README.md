@@ -1,7 +1,6 @@
 # what_to_do_ubuntu
 A repository to take you through the installation procedure for ubuntu 16.04 , as I have done.For freshers , with love.
 
-<<<<<<< HEAD
 I'd like to thank a lot of people for introducing me to open-source . So , this is me just passing the knowledge :).For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](facebook.com/kaustubhhiware)
 
 Please note: This README will be update daily. So, It would be better to share your ideas through 
@@ -35,10 +34,8 @@ There are a lot of OS out there , so choose wisely.(To add an image here , distr
 
 Although this is uncommon , a backup is suggested. In the last few attempts, it has been observed that backing up the C: drive suffices , if you do not have enough memory . However , this may not be true in all cases. 
 
+# Git and Github
 
-=======
-Major changes coming up after 2 weeks, when I am actually doing it.
->>>>>>> 5530b3eaa6b11bbe4f668254cba2dc130796e1fb
 # Python 
 
 First of all , install anaconda - it makes your life easier
@@ -48,7 +45,9 @@ install pip -  `python get-pip.py`
 using pip - `pip install -U pip setuptools`
 
 following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4,lxml
-, django, __future__, 
+, django, __future__, yolog
+
+*yolog - beautifies git logs
 
 see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 
@@ -89,11 +88,7 @@ bookmarking it and forgetting it . Android app available.
 * UglyEmail - Know who tracks your mail - tracked mails have a eye icon with them
 //add image later
 
-<<<<<<< HEAD
-Video speed controller - The world is not fast enough for you?- view videos on a lot of 
-=======
-* Video speed controller - The world is not fast enough for you - view videos on a lot of 
->>>>>>> 5530b3eaa6b11bbe4f668254cba2dc130796e1fb
+* Video speed controller - The world is not fast enough for you?- view videos across a lot of 
 platforms , at speeds higher than 2x , without audio distortion
 
 # TODO : 
