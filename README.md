@@ -1,7 +1,7 @@
 # what_to_do_ubuntu
 A repository to take you through the installation procedure for ubuntu 16.04 , as I have done.For freshers , with love.
 
-I'd like to thank a lot of people for introducing me to open-source . So , this is me just passing the knowledge :).For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](facebook.com/kaustubhhiware)
+I'd like to thank a lot of people for introducing me to open-source . So , this is me just passing the knowledge :).For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](http://facebook.com/kaustubhhiware)
 
 Please note: This README will be update daily. So, It would be better to share your ideas through 
 issues, rather than PR's. Pull requests would be great after 20th July, till then please bear with me.
