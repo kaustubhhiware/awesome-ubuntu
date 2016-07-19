@@ -34,6 +34,19 @@ There are a lot of OS out there , so choose wisely.(To add an image here , distr
 
 Although this is uncommon, a backup is suggested. In my last few attempts, it has been observed that backing up the C: drive suffices , if you do not have enough memory. However, this may not be true in all cases. 
 
+## After installing
+
+You need to first update the current softwares using
+`
+sudo apt-get install ubuntu-restricted-extras
+`
+
+Install all media related support :
+`
+sudo apt-get install ubuntu-restricted-extras
+`
+
+
 # Git and Github
 
 # Python 
