@@ -46,7 +46,12 @@ Install all media related support :
 sudo apt-get install ubuntu-restricted-extras
 `
 
+# DC
 
+DC stands for direct connect . You'll need this if you have a hub at your college.You might come over various ways to do this , but the best way is also the easiest : 
+`
+sudo apt-get install linuxdcpp
+`
 # Git and Github
 
 # Python 
@@ -107,6 +112,9 @@ platforms , at speeds higher than 2x , without audio distortion
 
 # TODO : 
 (shifted to contributing.md)
+
 # References : 
 
+* [dc](http://askubuntu.com/questions/569054/how-to-install-dc-on-ubuntu-14-04)
+* [Also dc](https://ubuntuforums.org/showthread.php?t=193984)
 
