@@ -118,3 +118,58 @@ platforms , at speeds higher than 2x , without audio distortion
 * [dc](http://askubuntu.com/questions/569054/how-to-install-dc-on-ubuntu-14-04)
 * [Also dc](https://ubuntuforums.org/showthread.php?t=193984)
 
+Later add:
+linuxdcpp
+
+chromium
+
+vlc
+
+restricted extras
+
+https://www.sublimetext.com/
+
+unity tweak tool and tweak tool ubuntu-tweak
+
+one click minimise - http://www.2daygeek.com/top-important-things-to-do-after-installing-ubuntu-16-04-lts-xenial-xerus/#
+
+sudo apt-get install flashplugin-installer
+
+time recursive search - http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html
+
+codecs - Terminal Command:
+sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag id3tool lame libxine2-ffmpeg nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra gstreamer1.0-libav
+
+
+sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+
+>python preinstalled on ubuntu 16
+
+>java : http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+sudo se commands approve hote hai
+http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
+
+after downloading jre , do 
+sudo cp Downloads/jre_file /usr/local/java
+
+git - preinstalled at this point
+config - https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04
+proxy -http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server
+
+
+> opencv install : 
+http://milq.github.io/install-opencv-ubuntu-debian/
+
+
+synaptic package manager : sudo apt-get install synaptic
+
+references:
+http://www.webupd8.org/2016/04/things-to-do-after-installing-ubuntu-1604-lts-xenial-xerus.html
+http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts
+http://ubuntuhandbook.org/index.php/2016/05/install-ubuntu-tweak-in-ubuntu-16-04/
+synaptic - http://www.tecmint.com/things-you-mostly-need-to-do-after-installing-ubuntu-16-04/4/
+
+java - http://askubuntu.com/questions/145748/how-to-compile-a-java-file
+
+remove with : sudo apt-get remove unwanted_name
