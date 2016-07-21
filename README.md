@@ -45,6 +45,32 @@ Install all media related support :
 `
 sudo apt-get install ubuntu-restricted-extras
 `
+* linuxdcpp
+
+* chromium
+
+* vlc
+
+* restricted extras
+
+* https://www.sublimetext.com/
+
+* unity tweak tool and tweak tool ubuntu-tweak
+
+>one click minimise - http://www.2daygeek.com/top-important-things-to-do-after-installing-ubuntu-16-04-lts-xenial-xerus/#
+
+`sudo apt-get install flashplugin-installer`
+
+>time recursive search - http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html
+
+codecs - Terminal Command:
+`
+sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag id3tool lame libxine2-ffmpeg nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra gstreamer1.0-libav
+`
+
+`
+sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+`
 
 # DC
 
@@ -113,35 +139,15 @@ platforms , at speeds higher than 2x , without audio distortion
 # TODO : 
 (shifted to contributing.md)
 
+remove with : sudo apt-get remove unwanted_name
+
 # References : 
 
 * [dc](http://askubuntu.com/questions/569054/how-to-install-dc-on-ubuntu-14-04)
 * [Also dc](https://ubuntuforums.org/showthread.php?t=193984)
 
 Later add:
-linuxdcpp
 
-chromium
-
-vlc
-
-restricted extras
-
-https://www.sublimetext.com/
-
-unity tweak tool and tweak tool ubuntu-tweak
-
-one click minimise - http://www.2daygeek.com/top-important-things-to-do-after-installing-ubuntu-16-04-lts-xenial-xerus/#
-
-sudo apt-get install flashplugin-installer
-
-time recursive search - http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html
-
-codecs - Terminal Command:
-sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag id3tool lame libxine2-ffmpeg nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra gstreamer1.0-libav
-
-
-sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 
 >python preinstalled on ubuntu 16
 
@@ -171,5 +177,3 @@ http://ubuntuhandbook.org/index.php/2016/05/install-ubuntu-tweak-in-ubuntu-16-04
 synaptic - http://www.tecmint.com/things-you-mostly-need-to-do-after-installing-ubuntu-16-04/4/
 
 java - http://askubuntu.com/questions/145748/how-to-compile-a-java-file
-
-remove with : sudo apt-get remove unwanted_name
