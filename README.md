@@ -71,6 +71,7 @@ sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag 
 `
 sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 `
+* appmenu - view all applications via a dropdown [here](http://askubuntu.com/questions/122437/how-to-access-applications-menu-in-ubuntu-unity-desktop).
 
 # DC
 
