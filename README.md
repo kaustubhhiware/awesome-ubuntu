@@ -97,6 +97,10 @@ following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechani
 
 see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 
+# Opencv
+
+[a guide](http://milq.github.io/install-opencv-ubuntu-debian/)
+[another guide](http://milq.github.io/install-opencv-ubuntu-debian/)
 
 # Chrome 
 
