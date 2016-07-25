@@ -164,6 +164,33 @@ http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
 after downloading jre , do 
 sudo cp Downloads/jre_file /usr/local/java
 
+# Newer, update kar
+
+adding themes - download whatever you want theme
+
+https://www.youtube.com/watch?v=9pntzL-S_PE
+ipython
+
+guake terminal
+
+geany 
+
+gimp - image manipulation
+
+Kazam - record screen
+
+netbeans
+
+gparted -  partition mgmt
+
+theme configuration - the name
+
+
+
+
+
+theme for chrome - https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml
+
 git - preinstalled at this point
 config - https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04
 proxy -http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server
