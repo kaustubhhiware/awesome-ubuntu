@@ -53,7 +53,8 @@ sudo apt-get install ubuntu-restricted-extras
 
 * restricted extras
 
-* https://www.sublimetext.com/
+* https://www.sublimetext.com/ - a [guide](http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/
+).
 
 * unity tweak tool and tweak tool ubuntu-tweak
 
@@ -168,7 +169,13 @@ sudo cp Downloads/jre_file /usr/local/java
 
 adding themes - download whatever you want theme
 
+* all the wallpapers .ever.
+`
+ sudo apt-get install ubuntu-wallpapers* 
+`
+
 https://www.youtube.com/watch?v=9pntzL-S_PE
+
 ipython
 
 guake terminal
@@ -176,6 +183,11 @@ guake terminal
 geany 
 
 gimp - image manipulation
+`
+
+ sudo apt-get install gimp gimp-data gimp-plugin-registry gimp-data-extras
+
+`
 
 Kazam - record screen
 
@@ -184,10 +196,6 @@ netbeans
 gparted -  partition mgmt
 
 theme configuration - the name
-
-
-
-
 
 theme for chrome - https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml
 
