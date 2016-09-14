@@ -53,8 +53,7 @@ sudo apt-get install ubuntu-restricted-extras
 
 * restricted extras
 
-* https://www.sublimetext.com/ - a [guide](http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/
-).
+* https://www.sublimetext.com/
 
 * unity tweak tool and tweak tool ubuntu-tweak
 
@@ -94,7 +93,15 @@ using pip - `pip install -U pip setuptools`
 following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4,lxml
 , django, __future__, yolog
 
-*yolog - beautifies git logs ,run in folder with `yolog`
+* yolog - beautifies git logs ,run in folder with `yolog`
+
+* thefuck - corrects your previous command [here](https://github.com/nvbn/thefuck#manual-installation)
+
+*fuck you - ragekill processes [here](https://github.com/robotlolita/fuck-you)
+
+Recommend installing node
+
+Mongo[DB](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
 
 see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 
@@ -102,6 +109,15 @@ see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 
 [a guide](http://milq.github.io/install-opencv-ubuntu-debian/)
 [another guide](http://milq.github.io/install-opencv-ubuntu-debian/)
+
+# Node.js apps
+ Need to set proxy here ! 
+
+* Awesome [resources](https://github.com/sindresorhus/awesome-nodejs#command-line-apps)
+
+* npm install --global speed-test
+
+* npm install -g iponmap
 
 # Chrome 
 
@@ -142,6 +158,10 @@ bookmarking it and forgetting it . Android app available.
 * Video speed controller - The world is not fast enough for you?- view videos across a lot of 
 platforms , at speeds higher than 2x , without audio distortion
 
+* [Mixmax](https://chrome.google.com/webstore/detail/mixmax-email-tracking-tem/ocpljaamllnldhepankaeljmeeeghnid/related?hl=en) - Email tracking
+
+* [Magic](https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif?hl=en) - Magic actions for youtube  -check it out , easier sound control
+
 # TODO : 
 (shifted to contributing.md)
 
@@ -169,13 +189,7 @@ sudo cp Downloads/jre_file /usr/local/java
 
 adding themes - download whatever you want theme
 
-* all the wallpapers .ever.
-`
- sudo apt-get install ubuntu-wallpapers* 
-`
-
 https://www.youtube.com/watch?v=9pntzL-S_PE
-
 ipython
 
 guake terminal
@@ -183,11 +197,6 @@ guake terminal
 geany 
 
 gimp - image manipulation
-`
-
- sudo apt-get install gimp gimp-data gimp-plugin-registry gimp-data-extras
-
-`
 
 Kazam - record screen
 
@@ -196,6 +205,10 @@ netbeans
 gparted -  partition mgmt
 
 theme configuration - the name
+
+
+
+
 
 theme for chrome - https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml
 
