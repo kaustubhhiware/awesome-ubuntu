@@ -4,8 +4,7 @@ A repository to take uninitiated open-source - curios people through the install
 I think all of us using Ubuntu based-systems like to thank a lot of people for introducing us to open-source . So, this is us just passing the knowledge :).For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](http://facebook.com/kaustubhhiware)
 <Google group or chat for this would be great ?!>
 
-*Under progress*
-
+**Under progress**
 # Why install Linux?
 
 Read more about this .
@@ -16,8 +15,6 @@ Some points :
 * More power, less BS (You can choose whatever version , everthing changes dynamically.)
 
 * You'll be delighted by each update , not hate them.
-
-* Find the quora answer by the professor whose 5-yr old daughter explains OS ;)
 
 # Installation prep-talk
 
@@ -32,85 +29,99 @@ There are a lot of OS out there , so choose wisely.When booting into a liveUSB, 
 
 Although this is uncommon, a backup is suggested. In my last few attempts, it has been observed that backing up the C: drive suffices , if you do not have enough memory. However, this may not be true in all cases. I've written an answer on [Quora](https://www.quora.com/How-can-I-dual-boot-Windows-7-and-Linux/answer/Kaustubh-Hiw%CE%B1re) for installation, complete with images.
 
-## After installing
+## Post installation
 
-You need to first update the current softwares using
+You need to first update the current system using
 <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade</pre>
 
 **NOTE** : Unlike windows, you'll be able to install only one application at a time, simply because it locks the list for repositories to look for updates later.(Very crude explanation).
 
-In the meanwhile, you might want to tweak your OS with these :
+In the meanwhile, you might want to tweak your OS with these 2 :
 
 * One click minimise :
-
 `gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
-* time recursive search -
 
-  `gsettings set org.gnome.nautilus.preferences enable-interactive-search false
-`
+* time recursive search -
+  `gsettings set org.gnome.nautilus.preferences enable-interactive-search false`
 
 * Install all media related support :
   `sudo apt-get install ubuntu-restricted-extras`
 
+* flashplayer  : Playing videos and gifs in firefox
+`sudo apt-get install flashplugin-installer`
 * linuxdcpp : Peer-to-peer file sharing network
+  `sudo apt-get install linuxdcpp`
 
   While you install the rest, you can upload the required minimum.
 
-  `sudo apt-get install linuxdcpp`
+* codecs - Essentials for media formats and zip formats:
+
+    `
+  sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag id3tool lame libxine2-ffmpeg nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra gstreamer1.0-libav
+   p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+  `
 
 * [Atom](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/) : A hackable open-source editor
 
-* [Chrome](): An awesome web browser, thanks to its [extensions](#chrome).  
+* [Chrome](http://askubuntu.com/questions/79280/how-to-install-chrome-browser-properly-via-command-line): An awesome web browser, owing to its [extensions](#chrome).  
 
-* vlc
+* synaptic : package manager `sudo apt-get install synaptic`
 
-* synaptic > sublimetext http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/
-
-* unity tweak tool and tweak tool ubuntu-tweak
-
-`sudo apt-get install flashplugin-installer`
+* [sublimetext](http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/) : A popular editor
 
 
+* unity tweak tool and tweak tool  : Change the way your OS looks - another win for Linux
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get gnome-tweak-tool
+sudo apt-get install unity-tweak-tool</pre>
 
-codecs - Terminal Command:
-`
-sudo apt-get install ffmpeg gxine libdvdread4 icedax tagtool libdvd-pkg easytag id3tool lame libxine2-ffmpeg nautilus-script-audio-convert libmad0 mpg321 libavcodec-extra gstreamer1.0-libav
-`
+* vlc : `sudo apt-get install vlc`
 
-`
-sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
-`
-* appmenu - view all applications via a dropdown [here](http://askubuntu.com/questions/122437/how-to-access-applications-menu-in-ubuntu-unity-desktop).
+* [appmenu](http://askubuntu.com/questions/122437/how-to-access-applications-menu-in-ubuntu-unity-desktop) - view all applications via a dropdown.
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-add-repository ppa:diesch/testing
+sudo apt-get update
+sudo apt-get install classicmenu-indicator</pre>
 
-# DC
+* [brightness indicator](http://www.omgubuntu.co.uk/2013/04/brightness-control-ubuntu) - control brightness via mouse.
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo add-apt-repository ppa:indicator-brightness/ppa
+sudo apt-get update
+sudo apt-get install indicator-brightness</pre>
 
-DC stands for direct connect . You'll need this if you have a hub at your college.You might come over various ways to do this , but the best way is also the easiest :
-`
-sudo apt-get install linuxdcpp
-`
-# Git and Github
+# Git
+ The most widely used version control system
+
+`sudo apt-get install git`
+
+* First time configuration:
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">git config --global user.name "your_username"
+git config --global user.name "your_username"</pre>
+
+ The next part is applicable if you work behind a proxy server.
+  <pre>
+ git config --global http.proxy http://10.3.100.207:8080
+ git config --global https.proxy https://10.3.100.207:8080</pre>
 
 # Python
 
-First of all , install anaconda - it makes your life easier
-< link !>
+Default 2.7.11+ is installed.
 
-install pip -  `python get-pip.py`
+First of all , install [anaconda](https://www.continuum.io/downloads) - it makes your life easier. [Askubuntu answer](http://askubuntu.com/questions/505919/how-to-install-anaconda-on-ubuntu).
 
-using pip - `pip install -U pip setuptools`
+install pip -  `sudo apt-get install python-pip python3-pip`
 
 following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4,lxml
-, django, __future__, yolog
+, django, __future__, yolog,matplotlib,scrapy,facepy
 
 * yolog - beautifies git logs ,run in folder with `yolog`
 
 * thefuck - corrects your previous command [here](https://github.com/nvbn/thefuck#manual-installation)
 
-*fuck you - ragekill processes [here](https://github.com/robotlolita/fuck-you)
+* scrapy :  `pip install Scrapy`
 
-Recommend installing node
+ If you run into an error while installing cryptography, [RTD.](https://cryptography.io/en/latest/installation/#building-cryptography-on-linux)
+
+* fuck you - ragekill processes [here](https://github.com/robotlolita/fuck-you)
 
 Mongo[DB](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
 
@@ -119,23 +130,37 @@ see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 # Opencv
 
 [a guide](http://milq.github.io/install-opencv-ubuntu-debian/)
+
 [another guide](http://milq.github.io/install-opencv-ubuntu-debian/)
 
-# Node.js apps
- Need to set proxy here !
-`
- npm config set proxy http://10.3.100.207:8080
- npm config set https-proxy http://10.3.100.207:8080
-`
+java : http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-* Awesome [resources](https://github.com/sindresorhus/awesome-nodejs#command-line-apps)
+sudo se commands approve hote hai
+http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
 
-* npm install --global speed-test
+ipython
 
-* npm install -g iponmap
+guake terminal
+
+geany
+
+gimp - image manipulation
+
+Kazam - record screen
+
+netbeans
+
+gparted -  partition mgmt
+
+theme configuration - the name
+
+sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
+
+java - http://askubuntu.com/questions/145748/how-to-compile-a-java-file
 
 # Chrome
 
+Themes for [chrome here](https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml).
 Some much needed extensions :
 
 * AdBlock - stop stupid ads from reducing your productivity
@@ -177,78 +202,12 @@ platforms , at speeds higher than 2x , without audio distortion
 
 * [Magic](https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif?hl=en) - Magic actions for youtube  -check it out , easier sound control
 
-# TODO :
-(shifted to contributing.md)
+# Node.js apps
+Server - side javascript for creating awesome webapps.
+ Need to set proxy here! This is specific for Kharagpur again.
+`
+ npm config set proxy http://10.3.100.207:8080
+ npm config set https-proxy http://10.3.100.207:8080
+`
 
-remove with : sudo apt-get remove unwanted_name
-
-# References :
-
-* [dc](http://askubuntu.com/questions/569054/how-to-install-dc-on-ubuntu-14-04)
-* [Also dc](https://ubuntuforums.org/showthread.php?t=193984)
-
-Later add:
-
-
->python preinstalled on ubuntu 16
-
->java : http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-sudo se commands approve hote hai
-http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
-
-after downloading jre , do
-sudo cp Downloads/jre_file /usr/local/java
-
-# Newer, update kar
-
-adding themes - download whatever you want theme
-
-https://www.youtube.com/watch?v=9pntzL-S_PE
-ipython
-
-guake terminal
-
-geany
-
-gimp - image manipulation
-
-Kazam - record screen
-
-netbeans
-
-gparted -  partition mgmt
-
-theme configuration - the name
-
- sudo apt-get install unity-tweak-tool
-
-git config --global http.proxy http://10.3.100.207:8080
-git config --global https.proxy https://10.3.100.207:8080
-
-matplotlib
-scapy
-facepy
-
-sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
-
-theme for chrome - https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml
-
-git - preinstalled at this point
-config - https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04
-proxy -http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server
-
-
-> opencv install :
-http://milq.github.io/install-opencv-ubuntu-debian/
-
-
-synaptic package manager : sudo apt-get install synaptic
-
-references:
-http://www.webupd8.org/2016/04/things-to-do-after-installing-ubuntu-1604-lts-xenial-xerus.html
-http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts
-http://ubuntuhandbook.org/index.php/2016/05/install-ubuntu-tweak-in-ubuntu-16-04/
-synaptic - http://www.tecmint.com/things-you-mostly-need-to-do-after-installing-ubuntu-16-04/4/
-
-java - http://askubuntu.com/questions/145748/how-to-compile-a-java-file
+* [Awesome resources](https://github.com/sindresorhus/awesome-nodejs#command-line-apps)
