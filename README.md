@@ -4,22 +4,20 @@ A repository to take uninitiated open-source - curios people through the install
 I think all of us using Ubuntu based-systems like to thank a lot of people for introducing us to open-source . So, this is us just passing the knowledge :).For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](http://facebook.com/kaustubhhiware)
 <Google group or chat for this would be great ?!>
 
-Please note: This README will be update daily. So, It would be better to share your ideas through 
-issues, rather than PR's. Pull requests would be great after 20th July, till then please bear with me.
-
-Extension
+*Under progress*
 
 # Why install Linux?
 
-Read more about this . 
-Some points : 
-=>Contribute what you want , change and distribute
+Read more about this .
+Some points :
 
-=>More power , less BS (You can choose whatever version , everthing changes dynamically.)
+* Contribute what you want , change and distribute
 
-=>You'll be delighted by each update , not hate them.
+* More power, less BS (You can choose whatever version , everthing changes dynamically.)
 
-=>Find the quora answer by the professor whose 5-yr old daughter explains OS ;)
+* You'll be delighted by each update , not hate them.
+
+* Find the quora answer by the professor whose 5-yr old daughter explains OS ;)
 
 # Installation prep-talk
 
@@ -28,40 +26,53 @@ If users wish to install only a single OS, you may skip this part, but it wouldn
 
 ## Choosing an OS
 
-There are a lot of OS out there , so choose wisely.(To add an image here , distributing users by their OS.)(Find what a guide if possible.)
+There are a lot of OS out there , so choose wisely.When booting into a liveUSB, it is safer to test the OS first, as some OS's won't respond to your keyboard or some other issues.(To add an image here , distributing users by their OS.)(Find what a guide if possible.)
 
 ## Installation Guide
 
-Although this is uncommon, a backup is suggested. In my last few attempts, it has been observed that backing up the C: drive suffices , if you do not have enough memory. However, this may not be true in all cases. 
+Although this is uncommon, a backup is suggested. In my last few attempts, it has been observed that backing up the C: drive suffices , if you do not have enough memory. However, this may not be true in all cases. I've written an answer on [Quora](https://www.quora.com/How-can-I-dual-boot-Windows-7-and-Linux/answer/Kaustubh-Hiw%CE%B1re) for installation, complete with images.
 
 ## After installing
 
 You need to first update the current softwares using
-`
-sudo apt-get install ubuntu-restricted-extras
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade</pre>
+
+**NOTE** : Unlike windows, you'll be able to install only one application at a time, simply because it locks the list for repositories to look for updates later.(Very crude explanation).
+
+In the meanwhile, you might want to tweak your OS with these :
+
+* One click minimise :
+
+`gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
+* time recursive search -
+
+  `gsettings set org.gnome.nautilus.preferences enable-interactive-search false
 `
 
-Install all media related support :
-`
-sudo apt-get install ubuntu-restricted-extras
-`
-* linuxdcpp
+* Install all media related support :
+  `sudo apt-get install ubuntu-restricted-extras`
 
-* chromium
+* linuxdcpp : Peer-to-peer file sharing network
+
+  While you install the rest, you can upload the required minimum.
+
+  `sudo apt-get install linuxdcpp`
+
+* [Atom](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/) : A hackable open-source editor
+
+* [Chrome](): An awesome web browser, thanks to its [extensions](#chrome).  
 
 * vlc
 
-* restricted extras
-
-* https://www.sublimetext.com/
+* synaptic > sublimetext http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/
 
 * unity tweak tool and tweak tool ubuntu-tweak
 
->one click minimise - http://www.2daygeek.com/top-important-things-to-do-after-installing-ubuntu-16-04-lts-xenial-xerus/#
-
 `sudo apt-get install flashplugin-installer`
 
->time recursive search - http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html
+
 
 codecs - Terminal Command:
 `
@@ -75,13 +86,13 @@ sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uu
 
 # DC
 
-DC stands for direct connect . You'll need this if you have a hub at your college.You might come over various ways to do this , but the best way is also the easiest : 
+DC stands for direct connect . You'll need this if you have a hub at your college.You might come over various ways to do this , but the best way is also the easiest :
 `
 sudo apt-get install linuxdcpp
 `
 # Git and Github
 
-# Python 
+# Python
 
 First of all , install anaconda - it makes your life easier
 < link !>
@@ -111,7 +122,11 @@ see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 [another guide](http://milq.github.io/install-opencv-ubuntu-debian/)
 
 # Node.js apps
- Need to set proxy here ! 
+ Need to set proxy here !
+`
+ npm config set proxy http://10.3.100.207:8080
+ npm config set https-proxy http://10.3.100.207:8080
+`
 
 * Awesome [resources](https://github.com/sindresorhus/awesome-nodejs#command-line-apps)
 
@@ -119,12 +134,12 @@ see this for [visual](https://www.youtube.com/watch?v=vszmuxnBBd8)
 
 * npm install -g iponmap
 
-# Chrome 
+# Chrome
 
 Some much needed extensions :
 
 * AdBlock - stop stupid ads from reducing your productivity
- 
+
 * Be Limitless - A Productivity tool to track your time on websites
 
 * Camera - a chrome app , if your laptop's camera can't be opened in any other way
@@ -138,16 +153,16 @@ No more , just drag over the word and right click to know the meaning
 
 * MailTrack for Gmail - the name says it all.Track when people recieve your mail
 
-* MakkhiChoose - For your online shopping expeditions.Keeps track of a products's prize over 
+* MakkhiChoose - For your online shopping expeditions.Keeps track of a products's prize over
 time , compares with other platforms for cheaper rates
 
 * PanicButton - You get more than what the name says - immediately bookmark all open tabs ,
 to view later . With one click , minimise all your tabs , review with another click.
 
-* Pushbullet - Send messages over the net , to your friends , or to yourself instead of 
+* Pushbullet - Send messages over the net , to your friends , or to yourself instead of
 bookmarking it and forgetting it . Android app available.
 
-* Savefrom.net helper - download video tutorials , playlists , etc within minutes - 
+* Savefrom.net helper - download video tutorials , playlists , etc within minutes -
 	downloads multiple files at a time with consistent speed
 
 * Tatkal ticket now - Tatkal reservations ? Check PNR within seconds -done.
@@ -155,19 +170,19 @@ bookmarking it and forgetting it . Android app available.
 * UglyEmail - Know who tracks your mail- tracked mails have a eye icon with them
 //add image later
 
-* Video speed controller - The world is not fast enough for you?- view videos across a lot of 
+* Video speed controller - The world is not fast enough for you?- view videos across a lot of
 platforms , at speeds higher than 2x , without audio distortion
 
 * [Mixmax](https://chrome.google.com/webstore/detail/mixmax-email-tracking-tem/ocpljaamllnldhepankaeljmeeeghnid/related?hl=en) - Email tracking
 
 * [Magic](https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif?hl=en) - Magic actions for youtube  -check it out , easier sound control
 
-# TODO : 
+# TODO :
 (shifted to contributing.md)
 
 remove with : sudo apt-get remove unwanted_name
 
-# References : 
+# References :
 
 * [dc](http://askubuntu.com/questions/569054/how-to-install-dc-on-ubuntu-14-04)
 * [Also dc](https://ubuntuforums.org/showthread.php?t=193984)
@@ -182,7 +197,7 @@ Later add:
 sudo se commands approve hote hai
 http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
 
-after downloading jre , do 
+after downloading jre , do
 sudo cp Downloads/jre_file /usr/local/java
 
 # Newer, update kar
@@ -194,7 +209,7 @@ ipython
 
 guake terminal
 
-geany 
+geany
 
 gimp - image manipulation
 
@@ -206,9 +221,16 @@ gparted -  partition mgmt
 
 theme configuration - the name
 
+ sudo apt-get install unity-tweak-tool
 
+git config --global http.proxy http://10.3.100.207:8080
+git config --global https.proxy https://10.3.100.207:8080
 
+matplotlib
+scapy
+facepy
 
+sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
 
 theme for chrome - https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml
 
@@ -217,7 +239,7 @@ config - https://www.digitalocean.com/community/tutorials/how-to-install-git-on-
 proxy -http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server
 
 
-> opencv install : 
+> opencv install :
 http://milq.github.io/install-opencv-ubuntu-debian/
 
 
