@@ -1,5 +1,7 @@
-# what_to_do_ubuntu
-A repository to take uninitiated open-source - curios people through the installation procedure for ubuntu 16.04 , as most of the current users have done. For freshers , with love.
+# awesome-ubuntu
+:sunglasses:
+
+A repository to take uninitiated open-source - curious people through the installation procedure for ubuntu 16.04 , as most of the current users have done. For freshers , with love.
 
 I think all of us using Ubuntu based-systems like to thank a lot of people for introducing us to open-source . So, this is me just passing the knowledge :smile:.For any queries , feel free to contact me via [mail](mailto:hiwarekaustubh@gmail.com) or drop a [message on Facebook.](http://facebook.com/kaustubhhiware)
 <Google group or chat for this would be great ?!>
@@ -90,8 +92,7 @@ sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy
 <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get gnome-tweak-tool
 sudo apt-get install unity-tweak-tool</pre>.
 
-You can pair it up with theme configuration ``
-to customise colours.
+You can pair it up with theme configuration to customise colours.
 You might as well experiment with [desktop environments](http://askubuntu.com/questions/65083/what-kinds-of-desktop-environments-and-shells-are-available).
 
 * vlc : `sudo apt-get install vlc`
