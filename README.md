@@ -77,9 +77,8 @@ In the meanwhile, you might want to tweak your OS with these 2 :
  conditions while this installation. Press tab to switch between options.
 
 * Get all the ubuntu wallpapers.Ever.
-<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get gnome-tweak-tool
-sudo apt-get install unity-tweak-tool</pre>.
-sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers</pre>
+
 
 * [Atom](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/) : A hackable open-source editor with inbuilt markdown viewer.
 
@@ -89,7 +88,7 @@ sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy
 
 
 * unity tweak tool and tweak tool  : Change the way your OS looks - another win for Linux
-<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get gnome-tweak-tool
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get install gnome-tweak-tool
 sudo apt-get install unity-tweak-tool</pre>.
 
 You can pair it up with theme configuration to customise colours.
@@ -97,7 +96,7 @@ You might as well experiment with [desktop environments](http://askubuntu.com/qu
 
 * vlc : `sudo apt-get install vlc`
 
-* [Foxit Reader](http://sourcedigit.com%2F20670-how-to-install-foxit-reader-in-ubuntu-using-terminal%2F&h=aAQH26fPZ) : A great pdf viewer for Linux
+* [Foxit Reader](http://sourcedigit.com/20670-how-to-install-foxit-reader-in-ubuntu-using-terminal/) : A great pdf viewer for Linux
 
 * [wine](http://ubuntuhandbook.org/index.php/2015/12/install-wine-1-8-stable-new-ppa/): Emulate few windows applications in ubuntu.
 
@@ -115,6 +114,7 @@ You might as well experiment with [desktop environments](http://askubuntu.com/qu
 sudo apt-get update
 sudo apt-get install kazam</pre>
 * [gparted](http://ubuntuhandbook.org/index.php/2013/09/install-upgrade-gparted-0-16-2-in-ubuntu-13-04-12-04/) -  partition management
+`sudo apt-get install gparted`
 
 * [LaTeX](http://milq.github.io/install-latex-ubuntu-debian/) - making documents with links.(Crude)Ever seen those resume.pdf's with links ? LaTeX made them.
 
