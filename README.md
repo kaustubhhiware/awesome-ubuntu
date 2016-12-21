@@ -76,6 +76,47 @@ In the meanwhile, you might want to tweak your OS with these 2 :
 **NOTE**: You will get a purple screen in your terminal to accept some terms and
  conditions while this installation. Press tab to switch between options.
 
+* [tree](http://askubuntu.com/questions/431251/how-to-print-the-directory-tree-in-terminal) - View Directory tree in terminal as below :
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">
+$ tree # or tree /path/to/folder
+.
+├── AndroidManifest.xml
+├── java
+│   └── com
+│       ├── example
+│       │   └── kaustubh
+│       │       └── calculator
+│       │           └── MainActivity.java
+│       └── learning
+│           └── kaustubh
+│               └── calculator
+│                   └── MainActivity.java
+└── res
+    ├── drawable
+    ├── layout
+    │   └── activity_main.xml
+    ├── mipmap-hdpi
+    │   └── ic_launcher.png
+    ├── mipmap-mdpi
+    │   └── ic_launcher.png
+    ├── mipmap-xhdpi
+    │   └── ic_launcher.png
+    ├── mipmap-xxhdpi
+    │   └── ic_launcher.png
+    ├── mipmap-xxxhdpi
+    │   └── ic_launcher.png
+    ├── values
+    │   ├── colors.xml
+    │   ├── dimens.xml
+    │   ├── strings.xml
+    │   └── styles.xml
+    └── values-w820dp
+└── dimens.xml
+</pre>
+ Install with `sudo apt-get install tree`
+
+
+
 * Get all the ubuntu wallpapers.Ever.
 <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get install ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers</pre>
 
@@ -246,5 +287,10 @@ Installation guides :
 [Link1](http://milq.github.io/install-opencv-ubuntu-debian/) [Link2](http://milq.github.io/install-opencv-ubuntu-debian/).
 
 [Tutorials](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html).
+
+
+## Sample
+
+I've added relevant commands from my bash_history in a file here. Let's see if a script is needed to automate all of setup.
 
 Have a suggestion ? Make an issue about it.
