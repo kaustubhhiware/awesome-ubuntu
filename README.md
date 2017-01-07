@@ -40,9 +40,12 @@ sudo apt-get dist-upgrade</pre>
 
 [Create a hotspot in Ubuntu](http://askubuntu.com/questions/490950/create-wifi-hotspot-on-ubuntu).
 
+
 **NOTE** : Unlike windows, you'll be able to install only one application at a time, simply because it locks the list for repositories to look for updates later.(Very crude explanation).
 
+
 In the meanwhile, you might want to tweak your OS with these 2 :
+
 
 * One click minimise :
 `gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
