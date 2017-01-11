@@ -130,6 +130,8 @@ $ tree # or tree /path/to/folder
 
 * [sublimetext](http://tipsonubuntu.com/2015/03/27/install-sublime-text-2-3-ubuntu-15-04/) : A popular editor
 
+ Another additions to sublime text would be [Package Control](https://packagecontrol.io/installation#st2) ,after which a [spacegray theme](https://github.com/kkga/spacegray) may be chosen.
+
 
 * unity tweak tool and tweak tool  : Change the way your OS looks - another win for Linux
 <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">sudo apt-get install gnome-tweak-tool
@@ -271,6 +273,16 @@ Another alternative links for java : [Link1](http://www.oracle.com/technetwork/j
 
 Follow this [answer on askubuntu](http://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu) for installing android studio.
 
+
+## Customising terminal
+Although there may be options like zsh, I'd prefer [fish](https://fishshell.com/), a user friendly command-line shell. Installation guides :
+ [Link1](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu//)
+ [Link2](http://www.makeuseof.com/tag/x-reasons-install-fish-shell/).
+ 
+ Once you've installed and configured basic fish, you would want a plugin manager like [fisherman](https://github.com/fisherman/fisherman/wiki) .
+ Some interesting [plugins](https://github.com/jbucaran/awesome-fish).
+ 
+ 
 ## Node.js apps
 Server - side javascript for creating awesome webapps.
 [Installation guide](http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/).
