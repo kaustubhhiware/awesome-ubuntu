@@ -44,9 +44,24 @@ sudo apt-get dist-upgrade</pre>
 **NOTE** : Unlike windows, you'll be able to install only one application at a time, simply because it locks the list for repositories to look for updates later.(Very crude explanation).
 
 
-In the meanwhile, you might want to tweak your OS with these 2 :
+In the meanwhile, you might want to tweak your OS with these  :
 
+* apt-fast :  A shellscript wrapper for apt-get and apt that drastically speeds up downloading of packages by downloading packages in parallel, with multiple connections per package.  
+```
+sudo add-apt-repository ppa:saiarcot895/myppa
+sudo apt-get update
+sudo apt-get -y install apt-fast 
+```
+During installation it will ask you to change number of connections for downloading, change it's value to any high value like 16.
+Afterwards, use apt-fast instead of apt-get or apt.
 
+* flux : It makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
+```
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install -y fluxgui && fluxgui
+```
+    
 * One click minimise :
 `gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
 
@@ -60,7 +75,8 @@ In the meanwhile, you might want to tweak your OS with these 2 :
 `sudo apt-get install flashplugin-installer`
 * linuxdcpp : Peer-to-peer file sharing network
   `sudo apt-get install linuxdcpp`
-
+* eiskaltdcpp : Alternative to linucdcpp
+`sudo apt-get install eiskaltdcpp`
   While you install the rest, you can upload the required minimum.
 
 * [Chrome](http://askubuntu.com/questions/79280/how-to-install-chrome-browser-properly-via-command-line): An awesome web browser, owing to its [extensions](#chrome).  Install the extensions you want while the rest is installed via apt-get.
@@ -70,7 +86,7 @@ In the meanwhile, you might want to tweak your OS with these 2 :
  sudo apt-get install icedax tagtool libdvd-pkg
  sudo apt-get install easytag id3tool lame libxine2-ffmpeg
  sudo apt-get install nautilus-script-audio-convert libmad0
- sudo apt-get isntall mpg321 libavcodec-extra gstreamer1.0-libav
+ sudo apt-get install mpg321 libavcodec-extra gstreamer1.0-libav
  sudo apt-get install  p7zip-rar p7zip-full unace unrar zip unzip
  sudo apt-get install  sharutils rar uudeview mpack arj cabextract file-roller</pre>.
 
@@ -237,8 +253,7 @@ First of all , install [anaconda](https://www.continuum.io/downloads) - it makes
 
 install pip -  `sudo apt-get install python-pip python3-pip`
 
-Install the following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4,lxml,ipython,
-, django, __future__, yolog,matplotlib,scrapy,facepy
+Install the following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4 , lxml , ipython , django , __future__ , yolog , matplotlib , scrapy , facepy
 
 with `pip install package_name` or `sudo -H pip install package_name` unless specifically mentioned.
 
