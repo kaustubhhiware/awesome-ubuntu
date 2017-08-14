@@ -50,18 +50,11 @@ In the meanwhile, you might want to tweak your OS with these  :
 ```
 sudo add-apt-repository ppa:saiarcot895/myppa
 sudo apt-get update
-sudo apt-get -y install apt-fast 
+sudo apt-get -y install apt-fast
 ```
 During installation it will ask you to change number of connections for downloading, change it's value to any high value like 16.
 Afterwards, use apt-fast instead of apt-get or apt.
 
-* flux : It makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
-```
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt-get update
-sudo apt-get install -y fluxgui && fluxgui
-```
-    
 * One click minimise :
 `gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`
 
@@ -73,6 +66,8 @@ sudo apt-get install -y fluxgui && fluxgui
 
 * flashplayer  : Playing videos and gifs in firefox
 `sudo apt-get install flashplugin-installer`
+
+
 * linuxdcpp : Peer-to-peer file sharing network
   `sudo apt-get install linuxdcpp`
 * eiskaltdcpp : Alternative to linucdcpp
@@ -191,6 +186,14 @@ sudo apt-get install classicmenu-indicator</pre>
 sudo apt-get update
 sudo apt-get install indicator-brightness</pre>
 
+* flux : It makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
+```
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install -y fluxgui && fluxgui
+```
+
+* tlpd: Battery optimiser. `sudo apt install tlpd`
 
 ## Chrome
 
@@ -253,7 +256,7 @@ First of all , install [anaconda](https://www.continuum.io/downloads) - it makes
 
 install pip -  `sudo apt-get install python-pip python3-pip`
 
-Install the following packages - beautifulSoup , tkinter , vpython ,twine,requests , mechanise, bs4 , lxml , ipython , django , __future__ , yolog , matplotlib , scrapy , facepy
+Install the following packages - beautifulSoup, requests, mechanise, bs4, lxml, jupyter, ipython, django, __future__ , yolog, matplotlib, scrapy
 
 with `pip install package_name` or `sudo -H pip install package_name` unless specifically mentioned.
 
@@ -289,15 +292,6 @@ Another alternative links for java : [Link1](http://www.oracle.com/technetwork/j
 Follow this [answer on askubuntu](http://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu) for installing android studio.
 
 
-## Customising terminal
-Although there may be options like zsh, I'd prefer [fish](https://fishshell.com/), a user friendly command-line shell. Installation guides :
- [Link1](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu//)
- [Link2](http://www.makeuseof.com/tag/x-reasons-install-fish-shell/).
- 
- Once you've installed and configured basic fish, you would want a plugin manager like [fisherman](https://github.com/fisherman/fisherman/wiki) .
- Some interesting [plugins](https://github.com/jbucaran/awesome-fish).
- 
- 
 ## Node.js apps
 Server - side javascript for creating awesome webapps.
 [Installation guide](http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/).
@@ -322,5 +316,22 @@ Installation guides :
 ## Sample
 
 I've added relevant commands from my bash_history in a file here. Let's see if a script is needed to automate all of setup.
+
+## Further customising
+
+### > Customising terminal
+Although there may be options like zsh, I'd prefer [fish](https://fishshell.com/), a user friendly command-line shell. Installation guides :
+ [Link1](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu//)
+ [Link2](http://www.makeuseof.com/tag/x-reasons-install-fish-shell/).
+
+ Once you've installed and configured basic fish, you would want a plugin manager like [fisherman](https://github.com/fisherman/fisherman/wiki) or [omf](https://github.com/oh-my-fish/oh-my-fish). Omf has a great list of themes as well.
+ Some interesting [plugins](https://github.com/jbucaran/awesome-fish).
+
+ Some interesting [themes](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md).
+
+
+### > Creating a dektop executable file
+
+ [Sample for android studio](http://askubuntu.com/questions/589615/creating-an-application-launcher-icon-for-android-studio/667306)
 
 Have a suggestion ? Make an issue about it.
