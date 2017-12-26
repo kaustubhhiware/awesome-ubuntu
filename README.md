@@ -195,6 +195,8 @@ sudo apt-get install -y fluxgui && fluxgui
 
 * tlpd: Battery optimiser. `sudo apt install tlpd`
 
+* tig: Viewing git logs will never be the same.
+
 ## Chrome
 
 Themes for chrome on [chrome webstore](https://chrome.google.com/webstore/detail/bluegreen-cubes/iipbjjaibkibpabddphfcgbngfhhfkml).
@@ -245,8 +247,8 @@ git config --global user.email "name@where.com"</pre>
 
  The next part is applicable if you work behind a proxy server.
   <pre>
- git config --global http.proxy http://10.3.100.207:8080
- git config --global https.proxy https://10.3.100.207:8080</pre>
+ git config --global http.proxy http://172.16.2.30:8080
+ git config --global https.proxy https://172.16.2.30:8080</pre>
 
 ## Python
 
@@ -256,7 +258,7 @@ First of all , install [anaconda](https://www.continuum.io/downloads) - it makes
 
 install pip -  `sudo apt-get install python-pip python3-pip`
 
-Install the following packages - beautifulSoup, requests, mechanise, bs4, lxml, jupyter, ipython, django, __future__ , yolog, matplotlib, scrapy
+Install the following packages - beautifulSoup, requests, mechanise, bs4, lxml, jupyter, ipython, django, __future__, matplotlib, scrapy
 
 with `pip install package_name` or `sudo -H pip install package_name` unless specifically mentioned.
 
@@ -298,8 +300,8 @@ Server - side javascript for creating awesome webapps.
  Need to set proxy here! This is specific for Kharagpur again.
 
 
- <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">npm config set proxy http://10.3.100.207:8080
-npm config set https-proxy http://10.3.100.207:8080</pre>
+ <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">npm config set proxy http://172.16.2.30:8080
+npm config set https-proxy http://172.16.2.30:8080</pre>
 
 
 * [Awesome resources](https://github.com/sindresorhus/awesome-nodejs#command-line-apps)
